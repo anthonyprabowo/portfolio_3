@@ -81,6 +81,7 @@ textarea {
     background-color: #eff0f1;
     border: none;
     border-radius: 5px;
+    padding: 10px 10px;
 }
 
 footer {
@@ -130,6 +131,7 @@ Layout Elements
     border-radius: 5px;
     border: none;
     background-color: #eff0f1;
+    padding: 0 10px;
 }
 
 .select-div:after {
@@ -143,6 +145,11 @@ Layout Elements
 
 .newsletter-paragraph {
     color: #8c8c8e;
+    margin-top: 30px;
+}
+
+.newsletter-format {
+    margin: 10px 0; 
 }
 
 .newsletter-suggestion > label{
@@ -185,9 +192,6 @@ Media Queries
         align-self: flex-end;
     }
 
-    .newsletter-format {
-        margin: 10px 0; 
-    }
 
     .newsletter-format > label {
         padding-left: 10px;
