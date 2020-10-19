@@ -60,6 +60,17 @@ label {
     margin-bottom: 10px;
 }
 
+input::placeholder {
+    color: #9fa9ae;
+    text-align: right;
+    padding: 20px;
+    font-style: italic;
+}
+
+footer {
+    font-style: italic;
+}
+
 /*
 Layout Elements
 */
