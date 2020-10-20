@@ -51,14 +51,11 @@ legend {
 }
 
 select {
-    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+    background: url(../image/sort.svg) no-repeat right #ddd;
     -webkit-appearance: none;
     background-position-x: 98%;
+    background-size: 5%;
     padding: 0 20px;
-}
-
-select > option {
-    color: #bcbcc3;
 }
 
 label {
@@ -66,6 +63,10 @@ label {
     font-size: 1.2em;
     color: #8c8c8e;
     margin-bottom: 10px;
+}
+
+select:first-child {
+    color: red;
 }
 
 input::placeholder {
@@ -132,6 +133,12 @@ Layout Elements
     border: none;
     background-color: #eff0f1;
     padding: 0 10px;
+}
+
+.zip:focus,
+.text-layout:focus {
+    border: 2px solid black;
+    transition: 0.5s;
 }
 
 .select-div:after {
